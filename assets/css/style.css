@@ -1,6 +1,6 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
+    /* remove box-sizing */
+    padding: initial;
     margin: 0;
 }
 
@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,11 +33,11 @@ body {
     font-size: 17px;
 }
 
-.header div ul {
+.header ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header ul li {
     display: inline-block;
     /* change margin left from 25px to 30px */
     margin-left: 30px;
@@ -74,9 +74,11 @@ p {
 }
 
 .content {
-    width: 75%;
+    /* change width from 75% */
+    width: 70%;
     display: inline-block;
-    margin-left: 20px;
+    /* change margin-left from 20px */
+    margin-left: 18px;
 }
 
 .benefits {
