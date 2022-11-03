@@ -1,5 +1,5 @@
 * {
-    /* remove box-sizing */
+    box-sizing:border-box;
     padding: initial;
     margin: 0;
 }
@@ -13,6 +13,12 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* change font size from 20px to 17px */
+    font-size: 17px;
 }
 
 .header h1 {
@@ -24,19 +30,22 @@ body {
     color: #d9dcd6;
 }
 
-.header {
+ 
+/* .header div{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* change font size from 20px to 17px */
+    change font size from 20px to 17px
     font-size: 17px;
-}
+}  */
 
+/* removed <div> */
 .header ul {
     list-style-type: none;
 }
 
+/* removed <div> */
 .header ul li {
     display: inline-block;
     /* change margin left from 25px to 30px */
@@ -54,12 +63,13 @@ p {
 }
 
 .hero {
-    height: 675px;
+    /* changed height from 800px */
+    height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
-     /* Change background-size from to contain*/
-     background-size: cover;
+    /* Change background-size from cover to contain*/
+    background-size: cover;
     background-position: center;
 }
 
@@ -141,13 +151,13 @@ p {
 }
 
 .search-engine-optimization {
-   /* change margin-bottom to 15px */
+    /* change margin-bottom to 15px */
     margin-bottom: 15px;
     /* change padding to 20px */
     padding: 20px;
     /* change height to 250px */
     height: 250px;
-        /* Move 'Gill Sans', 'Gill Sans MT' to the end, before sans-serif */
+    /* Move 'Gill Sans', 'Gill Sans MT' to the end, before sans-serif */
     font-family: Calibri, 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -224,6 +234,7 @@ p {
     font-size: 20px;
     display: none
 }
+
 .footer p {
     display: none
 }
