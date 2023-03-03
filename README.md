@@ -32,6 +32,8 @@ WHEN I view the title element
 
 THEN I find a concise, descriptive title
 
+[Deployed Application](https://jacquiesue.github.io/Modifying-Horiseon-Webpage/)
+
 ![screenshot](assets/images/Screen%20Shot%202022-11-05%20at%206.08.09%20AM.png)
 ![screenshot](assets/images/Screen%20Shot%202022-11-05%20at%206.07.19%20AM.png)
 
